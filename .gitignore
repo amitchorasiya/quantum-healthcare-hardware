@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+# never commit credentials
+*.token
+qiskit-ibm.json
+
+# local scratch (Reddit PDF etc), not part of the project
+/doc/
